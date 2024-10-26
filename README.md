@@ -24,6 +24,32 @@ The feature selection techniques used are:
 3.Embedded Method
 
 # CODING AND OUTPUT:
-       # INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS HERE
+```
+Name : Asin Vardhini R
+Register Number : 212222100007
+```
+
+```
+import pandas as pd
+from scipy import stats
+import numpy as np
+df=pd.read_csv("/content/bmi.csv")
+
+df.head()
+df.dropna()
+```
+![image](https://github.com/user-attachments/assets/ff7841c3-ea9d-4a2d-b2d5-984a8ef9e1dd)
+
+```
+max_vals=np.max(np.abs(df[['Height']]))
+max_vals
+max_vals1=np.max(np.abs(df[['Weight']]))
+max_vals1
+print("Height =",max_vals)
+print("Weight =",max_vals1)
+```
+![Screenshot 2024-10-08 160759](https://github.com/user-attachments/assets/6cec529f-5068-4bd6-9cbe-76b7caf25c44)
+
+
 # RESULT:
        # INCLUDE YOUR RESULT HERE
